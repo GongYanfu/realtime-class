@@ -1,0 +1,52 @@
+.trigger {
+    font-size: 18px;
+    line-height: 64px;
+    cursor: pointer;
+    transition: color 0.3s;
+    padding-left:10px;
+    color: #fff;
+  }
+
+.trigger:hover {
+    color: #1890ff;
+}
+
+.logo {
+    height: 32px;
+    background: rgba(255, 255, 255, 0.3);
+    margin: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+.listItem{
+  width: 8vw;
+  position: relative;
+}
+.listItem p{
+  position: absolute;
+  left:30%;
+  top:50%;
+  transform: translate(0,-50%);
+}
+
+.user{
+  transition: color 0.5s;
+  font-style:'italic';
+  color:#ffffff
+}
+.user:hover, .listItem:hover{
+  color: #1890ff;
+}
+.items{
+  position: absolute;
+  opacity: 0;
+  transform:  translateY(100%);
+}
+.user:hover .items{
+  opacity: 1.0;
+  transform:  translateY(0);
+}
+
+.layout {
+  background-color: #eeeeee;
+}

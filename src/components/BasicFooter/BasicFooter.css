@@ -1,0 +1,12 @@
+.basic-footer-body {
+    position: relative ;
+    background-color: #e6e6e6;
+}
+.basic-footer-item {
+    display: flex;
+    justify-content: center;
+}
+.a-box {
+    margin: 0 2.5rem;
+    line-height: 2.5rem;
+}

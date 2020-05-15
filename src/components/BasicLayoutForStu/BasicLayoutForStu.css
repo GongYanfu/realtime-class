@@ -1,0 +1,32 @@
+.trigger {
+    font-size: 18px;
+    line-height: 64px;
+    cursor: pointer;
+    transition: color 0.3s;
+    padding-left:10px;
+  }
+
+.trigger:hover {
+    color: #1890ff;
+  }
+  
+.logo {
+    height: 32px;
+    background: rgba(255, 255, 255, 0.3);
+    margin: 16px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+.user{
+  transition: color 0.5s;
+  font-style:'italic';
+  color:'#fff'
+}
+.user:hover, .listItem:hover{
+  color: #1890ff;
+}
+
+.layout {
+  background-color: #eeeeee;
+}
